@@ -31,15 +31,17 @@
 #   a default set of symlinks.
 #
 #   Sample config for multiple database directories:
-#   [slapd_mdb_database_*]
-#   env.dbstat /opt/symas/bin/mdb_stat
+#   [slapd_mdb_*]
+#   user slapd
+#   group slapd
+#   env.dbstat /opt/bin/mdb_stat
 #
-#   [slapd_mdb_database1_*]
-#   env.dbdir /var/lib/ldap/database1
-#   env.dbobject dn2i
+#   [slapd_mdb_primary_*]
+#   env.dbdir /var/ldap/mdb
 #
-#   [slapd_mdb_database2_*]
-#   env.dbdir /var/lib/ldap/database2
+#   [slapd_mdb_replication_*]
+#   env.dbdir /var/ldap/syncrpl
+#   env.dbobject entryCSN
 #
 # Magic markers
 #%# family=auto
