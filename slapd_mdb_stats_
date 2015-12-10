@@ -1,7 +1,9 @@
 #!/usr/bin/perl -w
 # -*- perl -*-
 #
-# Plugin copyright Bjorn Ruberg <bjorn@ruberg.no> 2005-2009
+# Plugin copyright The University of Texas at Austin 2015
+# Authored by <sdoane@austin.utexas.edu> 
+# Based on work by Bjorn Ruberg <bjorn@ruberg.no> 2005-2009
 # 
 # Licensed under GPLv2. Be nice.
 #
