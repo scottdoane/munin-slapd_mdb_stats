@@ -186,7 +186,7 @@ if ( defined($max) && defined($pages) && defined($objects) ) {
         }
         elsif ( $measure eq "percent" ) {
             # Find the percentage of pages used
-            $percent = $pages / $max;
+            $percent = ($pages / $max) * 100;
             print "$val.value $percent\n";
         }
         elsif ( $measure eq "objects" ) {
